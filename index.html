@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="I'm Komal,and this is my personal portfolio website..">
+    <meta name="keywords" content="Komal, Komal Gupta, Komal ">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Komal Gupta</title>
+
+    <!--==================== Favicon ====================-->
+    <link rel="shortcut icon" href="/assets/img/favicon1.ico" type="image/png">
+
+    <!--==================== Animate on scroll CDN ====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!--==================== toggle button ====================-->    
+    <style>
+        .light-theme {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .dark-theme {
+            background-color: #333;
+            color: #f0f0f0;
+        }
+        .theme-toggle {
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .navbar-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">&ltKomal Gupta/></a>
+
+            <div data-aos="fade-in" class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__items">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#about" class="nav__link ">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav_items">
+                        <a href="#skills" class="nav__link ">
+                            <i class="uil uil-file nav__icon"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav_items">
+                        <a href="#workexp" class="nav__link ">
+                            <i class="uil uil-file nav__icon"></i> Work Experiences
+                        </a>
+                    </li>
+
+                    <li class="nav_items">
+                        <a href="#blogs" class="nav__link ">
+                            <i class="uil uil-file nav__icon"></i> Blogs
+                        </a>
+                    </li>
+
+                    <li class="nav_items">
+                        <a href="#projectss" class="nav__link ">
+                            <i class="uil uil-file nav__icon"></i> Projects
+                        </a>
+                    </li>
+
+
+                    <li class="nav__items">
+                        <a href="#contact" class="nav__link ">
+                            <i class="uil uil-message nav__icon"></i> Contact me
+                        </a>
+                    </li>
+
+                    <li class="nav__items"> 
+                        <div class="theme-toggle" onclick="toggleTheme()">🌜</div>
+                    </li>
+                </ul>
+
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+
+            </div>
+
+            <!--<div class="nav__btns">
+                <!--Theme Change button-
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle" onclick="toggleMenu()">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div> -->
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div data-aos="fade-left" class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/__.komal__._/"
+                            target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://github.com/komal1303" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://twitter.com/Komal21048" target="_blank" class="home__social-icon">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+
+                    <div data-aos="fade-right" class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                                <image class="home__blob-img" x="12" y="18" href="assets/img/a.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home_title">Hi!<span class="wave">👋</span>, I'm Komal </h1>
+                        <h3 class="home__subtitle">
+                            and I'm <span class="auto-input"></span>
+                        </h3>
+                        <p class="home__description">
+                            Upcoming SDE intern @BNY Mellon'24 |Pre-Final year student @ Banasthali Vidyapith , Tonk (Rajasthan) | Graphic Designer |  Hand-on technology fanatic | Learner | Leetcoder
+                        </p>
+                        <a href="https://www.linkedin.com/in/komalguptaa" class="button button--flex">
+                            LinkedIn <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name"> Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle"> My Introduction</span>
+
+            <div data-aos="fade-left" class="about__container container grid">
+                <img src="assets/img/about.png" alt="" class="about__img" />
+                
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hi I'm Komal Gupta. I'm 21 years old.<br>
+                        
+                        I am a Pre-Final year student pursuing B.tech in Information technology from Banasthali Vidyapith. Being a technology 
+                        enthusiast ,I love exploring new technologies and leveraging them to solve real world problems. I have a strong desire to gain
+                          technical and industrial knowledge.I am open to learning and contributing to the community by innovating and working hard. 
+                        I am proficient in C/C++ programming languages and have knowledge of data structures and algorithms
+                         along with having hands-on experience on web & android development technologies.<br><br><b>Current CGPA:  9.47 (till sem IV)</b>
+                         
+                    </p>
+                    
+
+                   <!-- <div class="about_info">
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Years <br />
+                                experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">15+</span>
+                            <span class="about__info-name">Completed <br />
+                                projects</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">24/7</span>
+                            <span class="about__info-name">Online<br />
+                                support</span>
+                        </div>
+                    </div>
+                    -->
+                    
+
+                    <div class="about__buttons">
+                        <a download="KOMAL_GUPTA.pdf" href="https://drive.google.com/file/d/1bwm6pP6LNdI8zEnPRibPfbo-hAH0es1c/view?usp=sharing" class="button button--flex" target="_blank">
+                            Download CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div data-aos="fade-up" class="skills__container container grid">
+                <div>
+                    <!--==================== SKILL 1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Frontend developer</h1>
+                                <span class="skills__subtitle">More than 1 year</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/html.png" class="skills__logo"
+                                            width="25px" alt=""> HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/css.png" class="skills__logo"
+                                            width="20px" alt=""> CSS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/javascript.png" class="skills__logo"
+                                            width="20px" alt=""> JavaScript</h3>
+
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                           <!-- <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/react.png" class="skills__logo"
+                                            width="20px" alt=""> React</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+
+                    <!--==================== SKILL 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Language proficiency</h1>
+                                <span class="skills__subtitle">More than 1 year</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/php.png" class="skills__logo"
+                                            width="20px" alt=""> C</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/sql.png" class="skills__logo"
+                                            width="20px" alt=""> MySQL</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mysql"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/node.png" class="skills__logo"
+                                            width="20px" alt=""> C++</h3>
+
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/python.png" class="skills__logo"
+                                            width="20px" alt=""> Java</h3>
+                                    <span class="skills__number">55%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    
+                    <!--==================== SKILL 4 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Designer</h1>
+                                <span class="skills__subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/blender.png" class="skills__logo"
+                                            width="20px" alt=""> Canva/Figma</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__blender"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/ps.png" class="skills__logo"
+                                            width="20px" alt=""> Adobe Photoshop</h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__photoshop"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/illustrator.png" class="skills__logo"
+                                            width="20px" alt=""> Adobe Illustrator
+                                    </h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__adobeillustrator"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SKILL 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Artificial Intelligence and Machine Learning</h1>
+                                <span class="skills__subtitle">More than 1 year</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <!--<div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/php.png" class="skills__logo"
+                                            width="20px" alt="">Data Preprocessing</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/sql.png" class="skills__logo"
+                                            width="20px" alt="">Computer Vision and Digital Image processing</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mysql"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/node.png" class="skills__logo"
+                                            width="20px" alt=""> Libraries Utilization</h3>
+
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="/assets/img/python.png" class="skills__logo"
+                                            width="20px" alt=""> Python</h3>
+                                    <span class="skills__number">55%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                </div>
+            </div>
+            </div>
+
+
+        </section><br><br><br><br><br><br>
+
+        <!--==================== Work experiences ====================-->
+
+        <section class="secondsection" id="workexp">
+            
+            <h1>Work Experience</h1>
+           <!-- <span class="text-gray">What i have done so far</span>-->
+
+            <div class="box">
+                <div class="vertical">
+                    <!--<img class="vertical-img" src="wex.png" alt="">-->
+                    <div class="vertical-title">
+                        Data Analyst Intern
+                        <div class="vertical-textdis">
+                            @NoQs Digital(may2023-july2023), learnt to work on excel and creating Dashboards.
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                   
+                    <div class="vertical-title">
+                        <!--<img class="vertical-img" src="wex.png" alt="">-->
+                        <div class="vertical-title">Graphic Desiner @AlgoByte
+                        <!-- <a href="https://www.linkedin.com/in/komalguptaa">-->
+                            <div class="vertical-textdis">
+                            GD @AlgoByte(current) @Geeky Hub Community (nov2022-mar2023) @Code
+                            IN(dec2022-mar2023),worked on platforms and created various designs.
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <div class="vertical">
+                    <!--<img class="vertical-img" src="wex.png" alt="">-->
+                    <div class="vertical-title">
+                        Operation Lead
+                        <div class="vertical-textdis">
+                            @Ecell BV(current), managing the events of Ecell Banasthali Vidhyapith .
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <!--<img class="vertical-img" src="wex.png" alt="">-->
+                    <div class="vertical-title">
+                        PR & Outreach Lead
+                        <div class="vertical-textdis">
+                            @GFG chapter BV(2023-24) for banasthali Vidyapith
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <!--<img class="vertical-img" src="wex.png" alt="">-->
+                    <div class="vertical-title">
+                        Ninja Entreprenuer
+                        <div class="vertical-textdis">
+                            @Coding Ninjas(current), acts as a Campus Ambassador for the company in my college.
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="vertical">
+                        <div class="vertical-title">
+                            Graphic Desiner 
+                            <div class="vertical-textdis">
+                                GD @Geeky Hub Community (nov2022-mar2023),worked on platforms and designs.
+                            </div>
+                        </div>
+                    </div>-->
+                <div class="vertical">
+                    <!--<img class="vertical-img" src="wex.png" alt="">-->
+                    <div class="vertical-title">
+                        Campus Ambassador @IIT Kanpur
+                        <div class="vertical-textdis">
+                            (2022-mar2023) keeps students updated about the events to be held in IIT Kanpur.
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <!--<img class="vertical-img" src="wex.png" alt="">-->
+
+
+                    <div class="vertical-title">
+                        Microsoft Azure Top 10VC2.0
+                        <div class="vertical-textdis">
+                            The Top 10 Vice Chancellor (oct2022),particiaptttted in a 30hour Hackathon, organised by
+                            Reskill & Microsoft.
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!--==================== Certificates ====================-->
+        <section class="certificate section">
+            <h2 class="section__title">My Certificates</h2>
+            <span class="section__subtitle"></span>
+            <span class="section__subtitle">Scroll or slide here to see next>>></span>
+
+            <div data-aos="fade-up" class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== Certificate 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>Outstanding Intern Performer Award</p>
+                            <a href="https://drive.google.com/file/d/1G5W0oJf1ed2DBa4NVFMcP2QKrwlGwOrr/view?usp=sharing"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>Microsoft Top 10 Vice Chancellor</p>
+                            <a href="https://drive.google.com/file/d/1f0z-0nkfH90JJjaVkUdkf58kxja-h2u_/view?usp=sharing"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>Excellent Speaker award</p>
+                            <a href="/assets/pdf/3.pdf"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/4.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>GDSC Appreciation</p>
+                            <a href="https://cert.devtown.in/verify/ZQ8cEg"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 5 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/5.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>MLSA Appreciation</p>
+                            <a href="https://cert.devtown.in/verify/2ecBbQ"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 6 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/6.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>Code Rush Challenge</p>
+                            <a href="https://drive.google.com/file/d/1XeeiAv50X94ONoXk7NMUpwvc_9JWBHq9/view?usp=sharing"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/6.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>FlipKart Grid</p>
+                            <a href="https://drive.google.com/file/d/1Y5UQBDYYww9J5Jx1Iyzh6z5NcYN_igv9/view?usp=drive_link"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+        </section>
+
+        
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+            <div data-aos="fade-in" class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Want to discuss an idea</h2>
+                        <p class="project__description">I would love to connect</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="" alt="" class="project__img">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Blogs ====================-->
+        <section class="testimonial section" id="blogs">
+            <h2 class="section__title">Blogs</h2>
+            <span class="section__subtitle">have a look here!</span>
+            <span class="section__subtitle swiper-error">Slide card to see next>>></span>
+
+            <div data-aos="fade-in" class="testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+
+                    <!--==================== BLOG 1 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <p class="dark-mode blog-subtitle">With Love for Developing cool stuff,<br> I love to write and teach others what I have learnt.</p>
+                                <div class="blog-main-div">
+                                    <div class="blog-text-div">
+                                        <div>
+                                            <div class="blog-container dark-mode">
+                                                <a class="dark-mode blog-card blog-card-shadow" href="https://medium.com/@komalgupta1303/bny-mellon-on-campus-internship-interview-experience-intern-selected-d2a099614dec">
+                                                    <h3 class="small-dark blog-title">Interview Experience </h3>
+                                                    <p class="small-dark small" >Interview Selection @BNY Mellon (SDE Role)</p>
+                                                   
+                                                    <div class="go-corner">
+                                                        <div class="go-arrow">→</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                                            
+
+                               <!-- <img src="/assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Pranshu Gupta</h3>
+                                    <span class="testimonial__client">Batchmate (SRM, 2020-2024)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">
+                            I get a good impression, He carries out the projects with all the possible quality and attention</p>
+                    </div>
+                
+                    <!--==================== TESTIMONIAL 3 ====================-
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="/assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Shashwat Dwivedi</h3>
+                                    <span class="testimonial__client">Batchmate (SRM, 2020-2024)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">
+                            He's a good programmer, with the excellent knowledge on AIML concept. </p>
+                    </div>
+                    <!-- ==================== TESTIMONIAL 4 ====================-
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="/assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Pratik Goyal</h3>
+                                    <span class="testimonial__client">Batchmate (SRM, 2020-2024)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">
+                            He's an amazing web developer, he has a deep understanding about his sphere, and delivers
+                            great result.</p>
+                    </div>
+                </div>-->
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+
+        <!--==================PROJECTS==========================-->
+        <section class="projects" id="projectss">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Ideas i have worked on , so far </span>
+
+            <div class="containerr">
+                <div class="cards" id="card5"><a href="https://github.com/komal1303"><img src="C:\clone\My_portfolio.github.io\assets\img\p1.png"/></a></div>
+                <div class="cards" id="card4"><a href="https://github.com/komal1303"><img src="C:\clone\My_portfolio.github.io\assets\img\p2.png"/></a></div>
+                <div class="cards" id="card3"><a href="https://github.com/komal1303"><img src="C:\clone\My_portfolio.github.io\assets\img\p3.png"/></a></div>
+                <div class="cards" id="card2"><a href="https://github.com/komal1303"><img src="C:\clone\My_portfolio.github.io\assets\img\p4.png"/></a></div>
+                <div class="cards" id="card1"><a href="https://github.com/komal1303"><img src="C:\clone\My_portfolio.github.io\assets\img\p5.png"/></a></div>
+                <div class="cards" id="card1"><a href="https://github.com/komal1303"><img src="C:\clone\My_portfolio.github.io\assets\img\p6.png"/></a></div>
+                <!-- Add more cards as needed -->
+              </div>
+            
+              <script>
+                window.addEventListener('scroll', function() {
+                  const cards = document.querySelectorAll('.cards');
+                  let index = 0;
+                  cards.forEach((card, i) => {
+                    const rect = card.getBoundingClientRect();
+                    if (rect.top < window.innerHeight / 2) {
+                      index = i;
+                    }
+                  });
+                  cards.forEach((card, i) => {
+                    card.style.zIndex = 1; // Reset z-index for all cards
+                    if (i <= index) {
+                      card.style.transform = 'translateY(-' + (index - i) * 200 + 'px)'; // Slide up the cards
+                    } else {
+                      card.style.transform = 'translateY(0)'; // Reset transform for cards below the selected card
+                    }
+                  });
+                  cards[index].style.zIndex = cards.length + 1; // Bring the selected card to the front
+                  
+                  // Adjust size of the card under the cursor or at the main position
+                  cards.forEach((cards, i) => {
+                    if (i === index) {
+                      cards.style.width = '420px'; // Increase width by 40%
+                      cards.style.height = '280px'; // Increase height by 40%
+                    } else {
+                      cards.style.width = '300px'; // Reset width
+                      cards.style.height = '200px'; // Reset height
+                    }
+                  });
+                });
+              </script>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div data-aos="fade-in" class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon "></i>
+                        <!--home__social-->
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle"> komalgupta1303@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-github-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Github</h3>
+                            <span class="contact__subtitle">https://github.com/komal1303 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://formspree.io/f/mleqllgd" method="POST"
+                    class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input name="name" type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input name="email" type="email" class="contact__input">
+                        </div>
+                    </div>
+                   <!-- <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input name="message" type="text" class="contact__input">
+                    </div>     -->
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input" name="message"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
+
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Komal</h1>
+                    <span class="footer__subtitle"></span>
+                </div>
+
+                <ul class="footer__links">
+                        <a href="#contact" class="footer__link">Contactme</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/__.komal__._/"
+                        target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i></a>
+                    </a>
+
+                    <a href="https://github.com/komal1303" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i></a>
+                    </a>
+
+                    <a href="https://twitter.com/Komal21048" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i></a>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&copy; 2024 Komal Gupta | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <!--==================== SCROLL TOP ====================-->
+    <div><a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a></div>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=================== Animated text ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: [
+                "a Web Developer",
+                "a Graphic Designer",
+                "a student",
+                "a Speaker",
+                "a Learner ",
+            ],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+            
+        });
+    </script>
+
+    <!--=================== Animate scroll js ===============-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000
+        });
+    </script>
+
+
+<script>
+    function toggleMenu() {
+        var navbarLinks = document.getElementById("navbar-links");
+        navbarLinks.classList.toggle("active");
+    }
+
+    function toggleTheme() {
+        var body = document.body;
+        body.classList.toggle("dark-theme");
+        body.classList.toggle("light-theme");
+        var themeToggles = document.querySelectorAll(".theme-toggle");
+        themeToggles.forEach(function(toggle) {
+            toggle.classList.toggle("hidden");
+        });
+    }
+</script>
+
+</body>
+
+</html>
